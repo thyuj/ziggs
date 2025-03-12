@@ -60,10 +60,10 @@ fun GreetingScreen(){
         {
             Text(text = text, modifier = Modifier.padding(16.dp))
             IconButton(onClick = {
-                if (text == "quang") {
+                if (text == "hehe") {
                     text = "huy"
                 } else {
-                    text = "quang"
+                    text = "hehe"
                 }
             }, modifier = Modifier.padding(16.dp)) {
                 Icon(
